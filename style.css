@@ -1,6 +1,5 @@
 body{
-    display: flex;
-    flex-direction: column;
+
 }
 nav{
     display: flex;
@@ -17,4 +16,16 @@ a{
 a:hover{
     color: rgba(255, 217, 0, 0.753);
     transition: all 0.2s;
+}
+/* main*/
+.about-me{
+    padding-left: 10px;
+    margin-left: 50%;
+    border-radius: 12px;
+    box-shadow: 5px 1px 7px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
