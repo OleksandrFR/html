@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    gap: 200px;
+    margin-left: 500px;
+    margin-top: -50px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgba(255, 217, 0, 0.753);
+    transition: all 0.2s;
+}
